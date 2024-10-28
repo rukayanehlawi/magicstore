@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Magic Store</title>
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+		rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		integrity="sha512-XZKQ1O4Y5CkJjML3K6Ik77N+fXyZwxyRSgS9h61fT9VV7Q6XZG2fL1e9sX8D+vPCzzUaf5W2KOn5+IB1eHQAjg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- Owl Carousel Theme -->
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+		integrity="sha512-mRkYZtngz9W2k+8mE0U99K6D01lB8gElhiHwISvhr8e+ecRPRdWz6bSY6AZCKwGH+RZHW4sbpKk9wwvKUtJ3ZA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/slick.css" />
+	<link rel="stylesheet" href="css/slick-theme.css" />
+	<link rel="stylesheet" href="css/nouislider.min.css" />
+
+	<style>
+		
+		@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+	</style>
+
+</head>
+
+<body lang="en">
+	<!-- HEADER -->
+	<header>
+		<!-- TOP HEADER -->
+		<!-- <div id="top-header">
+			<div class="carousel-container">
+				<div id="salesCarousel" class="carousel slide" data-ride="carousel">
+					<div class="close-btn" onclick="closeCarousel()">&times;</div>
+					<div class="carousel-inner">
+			
+						<div class="carousel-item active">
+							<img src="images/product_ (5).jpg" class="d-block w-100" alt="Sale 1">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Sale 1</h5>
+								<p>Buy it now!</p>
+							</div>
+						</div>
+			
+						<div class="carousel-item">
+							<img src="images/product_ (11).jpg">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Sale 2</h5>
+								<p>Exclusive Offer!</p>
+							</div>
+						</div>
+			
+						<div class="carousel-item">
+							<img src="images/product_ (3).jpg">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Sale 3</h5>
+								<p>Don't miss out!</p>
+							</div>
+						</div>
+			
+					</div>
+			
+					<a class="carousel-control-prev" href="#salesCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#salesCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			
+		</div> -->
+		<!-- /TOP HEADER -->
+
+		<!-- MAIN HEADER -->
+		<div id="header">
+			<div class="container" id="mainhome">
+				<div class="row align-items-center">
+					<!-- LEFT SECTION -->
+					<div class="col-12 col-md-4 d-flex align-items-center justify-content-start">
+						<div class="language-switcher">
+							<img src="images/uk.png" alt="English" class="flags" id="english" style="cursor: pointer;"
+								onclick="switchLanguage('en')" />
+							<img src="images/saudi flag.png" alt="Arabic" class="flags" id="arabic"
+								style="cursor: pointer;" onclick="switchLanguage('ar')" />
+						</div>
+					</div>
+					<!-- /LEFT SECTION -->
+
+					<!-- CENTER SECTION -->
+					<div class="col-12 col-md-4 text-center">
+						<a class="navbar-brand header-logo" href="#">
+							<img src="images/magic-store.png" alt="Magic Store Logo"
+								style="border-radius: 50%; width: 80px; cursor: pointer; margin: 10px;">
+						</a>
+					</div>
+					<!-- /CENTER SECTION -->
+
+					<!-- RIGHT SECTION -->
+					<div class="col-12 col-md-4 d-flex justify-content-end align-items-center">
+						<div class="header-ctn d-flex align-items-center">
+							<!-- User and Money Icons -->
+							<ul class="header-links d-flex mb-0 mr-3">
+								<li><a href="#"><i class="fa fa-user-o"></i><span id="account">
+											حسابي</span></a></li>
+								<li><a href="#"><i class="fa fa-dollar" id="money-icon" style="display: none;"></i><span
+											id="money">ريال
+											سعودي</span></a></li>
+							</ul>
+							<!-- Sign In Button -->
+							<div class="ml-3">
+								<a href="#" class="btn btn-primary" id="signInBtn" onclick="toggleForms()">سجل
+									الدخول</a>
+							</div>
+							<!-- /Sign In Button -->
+
+							<div id="floating-form">
+								<div id="login-box">
+									<form action="" class="exclude"> <button type="button" class="close-btn"
+											onclick="closeForm()">X</button>
+										<h2>
+											<span id="login1">
+												سجل الدخول
+											</span>
+										</h2>
+									</form>
+									<div class="input-box"> <span class="icon"> <ion-icon name="person"></ion-icon>
+										</span> <input type="text" id="phone" required> <label>رقم الهاتف</label>
+									</div>
+									<div class="input-box"> <span class="icon"> <ion-icon name="lock-closed"></ion-icon>
+										</span> <input class="passwordInput" type="password" id="password1" required>
+										<span class="eye-icon" onclick="togglePasswordVisibility()"> <i
+												class="fa fa-eye" id="eye"></i>
+										</span> <label id="pass">كلمة المرور</label>
+									</div> <button id="login2" onclick="handleLogin()" type="submit"
+										class="btn btn-primary"> سجل الدخول
+									</button>
+									<div class="register-link">
+										<p id="dont">ليس لديك حساب؟</p> <a id="register-button"
+											href="javascript:void(0);" onclick="showRegisterForm()"> <span
+												id="register">إنشاء حساب</span> </a>
+									</div>
+									</form>
+								</div>
+								<div id="register-box" style="display: none;">
+									<form action="" class="exclude"> <button type="button" class="close-btn"
+											onclick="closeForm()">X</button>
+										<h2 id="register_"> حساب جديد</h2>
+										<div class="input-box"> <span class="icon"> <ion-icon name="mail"></ion-icon>
+											</span> <label for="email">الإيميل</label> <input type="email" id="Email1"
+												required> </div>
+										<div class="input-box"> <span class="icon"> <ion-icon name="person"></ion-icon>
+											</span> <input type="text" id="phone" required> <label>رقم الهاتف</label>
+										</div> <button onclick="handleRegister()" type="submit"
+											id="registerSubmitButton" class="btn btn-primary"> إنشاء حساب </button>
+										<div class="register-link">
+											<p id="already">لديك حساب بالفعل؟</p> <a id="login-button"
+												href="javascript:void(0);" onclick="showLoginForm()"> <span id="login3">
+													سجل الدخول</span> </a>
+										</div>
+									</form>
+								</div>
+							</div>
+
+							<!-- Menu Toggle -->
+							<div class="menu-toggle ml-3 d-md-none" id="menu-icon">
+								<a  href="#" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+									aria-expanded="false" aria-label="Toggle navigation">
+									<i class="fa fa-bars"></i>
+									<span id="menu">القائمة</span>
+								</a>
+							</div>
+							<!-- /Menu Toggle -->
+						</div>
+					</div>
+					<!-- /RIGHT SECTION -->
+				</div>
+
+				<!-- NAVIGATION -->
+				<nav id="navigation">
+					<div class="container">
+						<div id="responsive-nav">
+							<!-- Mobile Menu -->
+							<div class="collapse navbar-collapse d-md-none" id="navbarNav">
+								<ul class="navbar-nav">
+									<li class="nav-item"><a class="nav-link" href="#">
+											<span id="Home">
+												الرئيسية
+											</span></a></li>
+
+
+									<li class="nav-item"><a class="nav-link" href="#CategoriesS">
+											<span id="Categories">
+												الأصناف
+											</span>
+										</a>
+									</li>
+
+									<li class="nav-item"><a class="nav-link" href="#OffersS">
+											<span id="Offers">
+												العروض
+											</span></a></li>
+
+									<li class="nav-item"><a class="nav-link" href="#BestSellingS">
+											<span id="BestSellingS">
+												الأكثر مبيعاً
+											</span>
+										</a>
+									</li>
+
+
+									<li class="nav-item"><a class="nav-link" href="#AboutUsS">
+											<span id="AboutUs">
+												آراء الزبائن
+											</span>
+										</a>
+									</li>
+									<li class="nav-item"><a class="nav-link" href="#ContactUsS">
+											<span id="ContactUs">
+												تواصل معنا
+										</a></li></span>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<!-- /NAVIGATION -->
+
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /MAIN HEADER -->
+
+
+		<!-- NAVGATION -->
+		<div class="desktop-mode">
+			<ul class="main-nav nav navbar-nav d-none d-md-flex">
+				<div class="row">
+					<li class="nav-item active"><a class="nav-link" href="#">
+							<span id="Home">
+								الرئيسية
+							</span>
+						</a></li>
+					<li class="nav-item"><a class="nav-link" href="#CategoriesS">
+							<span id="Categories">
+								الأصناف
+							</span>
+						</a></li>
+					<li class="nav-item"><a class="nav-link" href="#OffersS">
+							<span id="Offers">
+								العروض
+							</span>
+						</a></li>
+					<li class="nav-item"><a class="nav-link" href="#BestSellingS">
+							<span id="BestSelling">
+								الأكثر مبيعاً
+							</span>
+						</a></li>
+					<li class="nav-item"><a class="nav-link" href="#AboutUsS">
+							<span id="AboutUs">
+								حولنا
+							</span>
+						</a></li>
+					<li class="nav-item"><a class="nav-link" href="#ContactUsS">
+							<span id="ContactUs">
+								تواصل معنا
+							</span>
+						</a></li>
+				</div>
+			</ul>
+		</div>
+		<!-- /NAVGATION -->
+
+
+		<!--Fullwidth Carousel Section -->
+		<div class="section">
+			<div id="fullWidthCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#fullWidthCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#fullWidthCarousel" data-slide-to="1"></li>
+					<li data-target="#fullWidthCarousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="carousel-item active" style="background-image: url('images/xx.png');">
+						<div class="overlay"></div>
+						<div class="carousel-caption d-none d-md-block">
+							<button class="btn" id="startShop">
+								<a href="#CategoriesS">
+									ابدأ التسوق</a>
+							</button>
+						</div>
+					</div>
+					<div class="carousel-item" style="background-image: url('images/gg.png');">
+						<div class="overlay"></div>
+						<div class="carousel-caption d-none d-md-block">
+
+							<button class="btn" id="startShop">
+								<a href="#CategoriesS">
+									ابدأ التسوق</a>
+							</button>
+						</div>
+					</div>
+					<!-- <div class="carousel-item" style="background-image: url('images/xxx.png');">
+						<div class="overlay"></div>
+						<div class="carousel-caption d-none d-md-block">
+							<button class="btn" id="startShop">
+								<a href="#CategoriesS">
+								ابدأ التسوق</a>
+							</button>
+						</div>
+					</div> -->
+				</div>
+
+				<!-- Controls -->
+				<a class="carousel-control-prev" href="#fullWidthCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#fullWidthCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<!-- Corusal section -->
+
+		<!-- SECTION -->
+		<div class="section" id="CategoriesS">
+			<div class="category-section">
+				<span id="offers">
+					<div class="container my-5">
+						<h1 class="animated-heading">الأصناف</h1>
+					</div>
+				</span>
+			</div>
+			<div class="grid-container">
+				<div class="box" data-aos="flip-left"onclick="window.location.href='windows.html';" style="cursor: pointer;">
+					<img src="images/win.jpg" alt="Image 1" />
+					<h3 class="box-heading">ويندوز</h3>
+				</div>
+				<div class="box" data-aos="flip-left">
+					<img src="images/comp.jpg" alt="Image 2" />
+					<h3 class="box-heading">برامج الكمبيوتر</h3>
+				</div>
+				<div class="box" data-aos="flip-left">
+					<img src="images/mob.jpg" alt="Image 3" />
+					<h3 class="box-heading">برامج الهواتف</h3>
+				</div>
+				<div class="box" data-aos="flip-left">
+					<img src="images/produ.jpg" alt="Image 4" />
+					<h3 class="box-heading">الاتصالات</h3>
+				</div>
+				<div class="box" data-aos="flip-left">
+					<img src="images/game.jpg" alt="Image 5" />
+					<h3 class="box-heading">الألعاب</h3>
+				</div>
+				<div class="box" data-aos="flip-left">
+					<img src="images/e-book.jpg" alt="Image 6" />
+					<h3 class="box-heading">الكتب الإلكترونية</h3>
+				</div>
+				<div class="box" data-aos="flip-left">
+					<img src="images/net.jpg" alt="Image 7" />
+					<h3 class="box-heading">الأفلام والمسلسلات</h3>
+				</div>
+				<div class="box" data-aos="flip-left">
+					<img src="images/learn.jpg" alt="Image 8" />
+					<h3 class="box-heading">الدورات التدريبية</h3>
+				</div>
+				<div class="box" data-aos="flip-left">
+					<img src="images/fv.jpg" alt="Image 9" />
+					<h3 class="box-heading">بطاقات التسوق</h3>
+				</div>
+			</div>
+			<!-- /SECTION -->
+		</div>
+
+
+		<!-- SECTION -->
+		<div class="section" id="OffersS">
+			<div class="category-section">
+				<span id="offers">
+					<div class="container my-5">
+						<h1 class="animated-heading">العروض</h1>
+					</div>
+					
+				</span>
+			</div>
+			<div class="grid-container">
+				<div class="box">
+					<img src="images/win.jpg" alt="Image 1" />
+					<h3 class="box-heading"> ويندوز</h3>
+				</div>
+				<div class="box">
+					<img src="images/comp.jpg" alt="Image 2" />
+					<h3 class="box-heading">برامج الكمبيوتر</h3>
+				</div>
+				<div class="box">
+					<img src="images/mob.jpg" alt="Image 3" />
+					<h3 class="box-heading">برامج الهواتف</h3>
+				</div>
+				<div class="box">
+					<img src="images/produ.jpg" alt="Image 4" />
+					<h3 class="box-heading"> الاتصالات</h3>
+				</div>
+				<div class="box">
+					<img src="images/game.jpg" alt="Image 5" />
+					<h3 class="box-heading"> الألعاب</h3>
+				</div>
+				<div class="box">
+					<img src="images/e-book.jpg" alt="Image 6" />
+					<h3 class="box-heading">الكتب الإلكترونية </h3>
+				</div>
+				<div class="box">
+					<img src="images/net.jpg" alt="Image 7" />
+					<h3 class="box-heading"> الأفلام والمسلسلات </h3>
+				</div>
+				<div class="box">
+					<img src="images/learn.jpg" alt="Image 8" />
+					<h3 class="box-heading"> الدورات التدريبية</h3>
+				</div>
+				<div class="box">
+					<img src="images/fv.jpg" alt="Image 9" />
+					<h3 class="box-heading"> بطاقات التسوق </h3>
+				</div>
+			</div>
+			<!-- /SECTION -->
+
+		</div>
+
+		<!-- Testimonials -->
+		<div class="section" id="AboutUsS">
+			<div class="category-section">
+				<span id="customers">
+					<div class="container my-5">
+						<h1 class="animated-heading">آراء الزبائن</h1>
+					</div>
+
+				</span>
+			</div>
+
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="img-box"><img src="images/review-1.jpg" alt=""></div>
+						<p class="testimonial">اشتريت لعبة الفيديو التي أحبها من هنا! لم أجدها في أي مكان آخر</p>
+						<p class="overview"><b>Michael Holz</b>Seo Analyst at <a href="#">OsCorp Tech.</a></p>
+						<div class="star-rating">
+							<ul class="list-inline">
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+							</ul>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="img-box"><img src="images/review-2.jpg" alt=""></div>
+						<p class="testimonial">اشتريت الأسبوع الماضي من هذا الموقع! جودة عالية وخدمة ممتازة</p>
+						<p class="overview"><b>Paula Wilson</b>Media Analyst at <a href="#">SkyNet Inc.</a></p>
+						<div class="star-rating">
+							<ul class="list-inline">
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+							</ul>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="img-box"><img src="images/review-3.jpg" alt=""></div>
+						<p class="testimonial">أنصح به بشدة! موقع مذهل</p>
+						<p class="overview"><b>Antonio Moreno</b>Web Developer at <a href="#">Circle Ltd.</a></p>
+						<div class="star-rating">
+							<ul class="list-inline">
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star"></i></li>
+								<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- Carousel controls -->
+				<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+		<!-- Testimonials -->
+
+		<div class="section" id="BestSellingS">
+			<div class="category-section text-center mb-4">
+				<div class="container my-5">
+					<h1 class="animated-heading">الأكثر مبيعاً</h1>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+							<!-- Carousel indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+							</ol>   
+							<!-- Wrapper for carousel items -->
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="row">
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/box_filmorax.png" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>بطاقة شراء</h4>
+													<p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/windows3.jpg" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>ويندوز آخر إصدار</h4>
+													<p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>      
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/box-gradient.png" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>برنامج ويندوز</h4>
+													<p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>                                
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/games1.jpg" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>بطاقة ألعاب</h4>
+													<p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="row">
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/wind.png" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>ويندوز</h4>
+													<p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/e-book.jpg" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>كتاب إلكتروني</h4>
+													<p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/e-boooo.webp" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>كتاب إلكتروني</h4>
+													<p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/games4.webp" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>لعبة إصدار جديد</h4>
+													<p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>                        
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="row">
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/gift card.jpg" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>بطاقة هانغر ستيشن</h4>
+													<p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/gi.avif" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>بطاقة شراء</h4>
+													<p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/e-book.jpg" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>كتاب إلكتروني</h4>
+													<p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>    
+										<div class="col-sm-3">
+											<div class="thumb-wrapper">
+												<div class="img-box">
+													<img src="img/windows2.webp" class="img-fluid" alt="">
+												</div>
+												<div class="thumb-content">
+													<h4>إصدار ويندوز</h4>
+													<p class="item-price"><strike>$350.00</strike> <span>$330.00</span></p>
+													<div class="star-rating">
+														<ul class="list-inline">
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+													<a href="#" class="btn btn-primary">الإضافة للسلة</a>
+												</div>                        
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Carousel controls -->
+							<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+								<i class="fa fa-angle-right"></i>
+							</a>
+							<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+								<i class="fa fa-angle-left"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<!-- NEWSLETTER -->
+		<div id="newsletter" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="newsletter">
+							<p style="color: black;">Sign Up for the <strong>NEWSLETTER</strong></p>
+							<form>
+								<button id="Subscribe" class="newsletter-btn"><i class="fa fa-envelope"></i>
+									سجل</button><input class="input" id="EnterEmail" type="email" placeholder="أدخل إيميلك">
+								
+							</form>
+							<ul class="newsletter-follow">
+								<li>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /NEWSLETTER -->
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<!-- top footer -->
+			<div class="section">
+				<!-- container -->
+				<div class="container" id="ContactUsS">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title" id="aboutUs"> حولنا</h3>
+								<p id="about">
+									مرحبًا بكم في ماجيك ستور، وجهتكم الأولى للتسوق الرقمي المميز. نسعى لتقديم
+									أفضل
+									المنتجات الرقمية، بتجربة تسوق سهلة وآمنة. نؤمن بأن الجودة هي الأساس، لذا
+									نحرص على
+									توفير خيارات مبتكرة تلبي احتياجاتكم وتفوق توقعاتكم. في ماجيك ستور، رضاكم هو
+									أولويتنا
+								</p>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+021-95-51-84</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>email@email.com</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title" id="Categories">الأصناف</h3>
+								<ul class="footer-links">
+									<li><a href="windows.html">
+											ويندوز
+										</a></li>
+
+									<li><a href="#">
+											<span id="Windows">
+												برامج الكمبيوتر
+											</span>
+										</a></li>
+
+									<li><a href="#">
+											برامج الهواتف
+
+										</a></li>
+
+									<li><a href="#">
+											الاتصالات
+
+										</a></li>
+									<li><a href="#">
+											الأفلام والمسلسلات
+
+										</a></li>
+
+									<li><a href="#">
+											الألعاب
+
+										</a></li>
+
+									<li><a href="#">
+											الكتب الإلكترونية
+
+										</a></li>
+									<li><a href="#">
+											الدورات التدريبية
+
+										</a></li>
+
+									<li><a href="#">
+											بطاقات التسوق
+
+										</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="clearfix visible-xs"></div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Information</h3>
+								<ul class="footer-links">
+									<li><a href="#" id="pp">سياسة الخصوصية</a></li>
+									<li><a href="#" id="returns">الاسترجاع والاستبدال</a></li>
+									<li><a href="#" id="conditions">نظام الولاء </a></li>
+									<li><a href="#" id="conditions">بع معنا </a></li>
+									<li><a href="#" id="conditions"> التسويق بالعمولة </a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">الخدمات</h3>
+								<ul class="footer-links">
+									<li><a href="#">طرق الدفع </a></li>
+									<li><a href="#"> خدمة العملاء</a></li>
+									<li><a href="#">الدعم الفني</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /top footer -->
+
+			<!-- bottom footer -->
+			<div id="bottom-footer" class="section">
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="footer-payments">
+								<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+								<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
+							</ul>
+							<span class="copyright">
+								جميع الحقوق محفوظة &copy;
+								<script>document.write(new Date().getFullYear());</script> All rights reserved |
+								This
+								website is made by <a>Rukaya</a>
+
+							</span>
+
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /bottom footer -->
+		</footer>
+		<!-- /FOOTER -->
+
+		<!-- Sticky Icons -->
+		<div class="sticky-icons">
+			<a href="#" class="icon cart-icon">
+				<i class="fa fa-shopping-cart"></i>
+			</a>
+			<a href="chat.html" class="icon chat-icon">
+				<i class="fa fa-comments"></i>
+			</a>
+		</div>
+
+		<script>
+			// MENU NAVIGATION
+			document.addEventListener('DOMContentLoaded', function () {
+				const responsiveNav = document.getElementById('responsive-nav');
+				const menuIcon = document.getElementById('menu-icon');
+	
+				// Function to close the responsive nav
+				function closeNav() {
+					responsiveNav.classList.remove('active');
+				}
+	
+				// Function to open the responsive nav
+				function openNav() {
+					responsiveNav.classList.add('active');
+				}
+	
+				// Event listener for clicks outside the nav
+				document.addEventListener('click', function (event) {
+					if (!responsiveNav.contains(event.target) && !event.target.closest('#menu-icon')) {
+						closeNav();
+					}
+				});
+	
+				// Open the nav when the menu icon is clicked
+				menuIcon.addEventListener('click', function (event) {
+					event.preventDefault(); // Prevent default anchor behavior
+					event.stopPropagation(); // Prevent the click from closing the nav immediately
+					if (responsiveNav.classList.contains('active')) {
+						closeNav(); // If it's already open, close it
+					} else {
+						openNav(); // If it's closed, open it
+					}
+				});
+			});
+		</script>
+
+		<script>
+		// HEADING ANIMATION
+		document.addEventListener('DOMContentLoaded', function () {
+        const headings = document.querySelectorAll('.animated-heading');
+
+        const handleScroll = () => {
+            headings.forEach(heading => {
+                const rect = heading.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+
+                // Check if the heading is in the viewport
+                if (rect.top < windowHeight && rect.bottom > 0) {
+                    heading.classList.add('visible');
+                } else {
+                    heading.classList.remove('visible'); // Remove class to allow re-animation
+                }
+            });
+        };
+
+        // Initial check
+        handleScroll();
+
+        // Add scroll event listener
+        window.addEventListener('scroll', handleScroll);
+    });
+</script>
+
+
+<script>
+			// Close top Carousel
+			function closeCarousel() {
+				document.querySelector('.carousel-container').style.display = 'none';
+			}
+
+			// Close form
+			document.getElementById('close-btn').onclick = function () {
+				closeForm();
+			};
+
+			function closeForm() {
+				document.getElementById('floating-form').style.display = 'none';
+			}
+
+		</script>
+		
+		<script>
+
+		</script>
+		<!-- jQuery, Bootstrap, and other scripts -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/1e68Ww9ik4F7cF8xB7gU7T2zH5O9MOPDNZ5y27"
+			crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+		<script>
+			AOS.init({
+				duration: 1000, // Animation duration
+			});
+		</script>
+		<script src="js/slick.min.js" defer></script>
+		<script src="js/nouislider.min.js" defer></script>
+		<script src="js/jquery.zoom.min.js" defer></script>
+		<script src="js/main.js" defer></script>
+
+</body>
+
+</html>
